@@ -2,11 +2,11 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div data-scroll data-scroll-speed=".1" className='flex gap-5 justify-between w-full h-screen p-20 font-["Founders_Grotesk_X-condensed"]'>
+    <div data-scroll data-scroll-speed=".1" className='flex gap-5 justify-between w-full h-screen sm-p-20 p-10 font-["Founders_Grotesk_X-condensed"]'>
       <div className='w-[1/4] h-full flex flex-col justify-between'>
-        <div className="heading">
-          <h1 className='text-[6vw] uppercase leading-none -mb-3 font-semibold'>Eye</h1>
-          <h1 className='text-[6vw] uppercase leading-none -mb-3 font-semibold'>Opening</h1>
+        <div className="heading mt-10">
+          <h1 className='text-[5vw] sm:text-[6vw] uppercase leading-none -mb-0 sm:-mb-3 font-semibold'>Eye</h1>
+          <h1 className='text-[5vw] sm:text-[6vw] uppercase leading-none -mb-0 sm:-mb-3 font-semibold'>Opening</h1>
         </div>
       
         <svg width="72" height="30" viewBox="0 0 72 30" fill="none" xmlns="http://www.w3.org/2000/svg">
